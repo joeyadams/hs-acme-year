@@ -5,7 +5,7 @@ module Acme.Year (
 import Data.Version
 import Paths_acme_year
 
--- | The current year (e.g. @2013@)
+-- | The current year (e.g. @2014@)
 currentYear :: Int
 currentYear =
     case versionBranch version of
